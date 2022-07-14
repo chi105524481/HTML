@@ -10,8 +10,8 @@
     <style>
         body{
             background-color: aquamarine;
-            width: 80%;
-            margin-left: 10%;
+
+
             font-family: 標楷體, Helvetica, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             
         }
@@ -28,12 +28,31 @@
         }
         .info_1{
             background-color: rgb(23, 63, 63);
-
+        }
+        .photo{
+            background-color: skyblue;
+            width: 80%;
+        }
+        .photo_1{
+            width: 28rem;
+            padding: 6px;
+        }
+        #control{
+            width: 80%;
+            margin: 1rem auto;
+        }
+        .info_1 a{
+            color: white;
+        }
+        #bmi_table{
+            width: 800px;
+            margin: 1rem auto;
         }
 
     </style>
 </head>
 <body>
+    <div id="control">
     <div class="title">何謂健身?</div>
     <b>
         <u>答案就是堅持 <span class="sport">運動健身</span> </u>
@@ -48,13 +67,13 @@
     舞臺上或者是電影螢幕上綻放光彩。</em><b><u>答案就是堅持運動健身!</b></p></u>
     <hr />
 </div>
-    <img src="https://cdn1.techbang.com/system/excerpt_images/83691/post_inpage/e2eaa2169a1960b3930ddf1eb5573751.jpg?1610111772" alt="" width="100%">
+    <img class="photo" src="https://cdn1.techbang.com/system/excerpt_images/83691/post_inpage/e2eaa2169a1960b3930ddf1eb5573751.jpg?1610111772" alt="" width="100%">
     <hr />
     <img src="D:\程式語言課程\Django(jerry陳岳洋老師)\HTML\sourcecode\res\img\banner.jpg" alt="圖片載入失敗" width="100%">
-    <img 
+    <img class="photo_1"
     src="img/pic-3.jpg" alt="" width="300px"
     >
-    <img 
+    <img class="photo_1"
     src="./img/pic-1.jpg" alt="" width="300px"
     >
 
@@ -88,7 +107,7 @@
         >節錄至 https://fitnesstwenty.com/benefits-of-workout/</a>
     </small>
     <h2>一天所需的卡路里</h2>
-    <table border="3">
+    <table border="3" id="bmi_table">
         <thead>
             <tr>
                 <th>每天活動量</th>
@@ -156,4 +175,5 @@ allowfullscreen
     
     
 </form>
+</div>
 </html>
