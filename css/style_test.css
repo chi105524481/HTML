@@ -1,0 +1,126 @@
+
+body{
+    background-color: aquamarine;
+
+
+    font-family: 標楷體, Helvetica, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.title{
+    text-align: center;
+    background-color: azure;
+    color: blueviolet;
+    font-size: 32px;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 1rem;
+    padding-left: 40%;
+    
+}
+.info_1{
+    background-color: rgb(23, 63, 63);
+}
+.photo{
+    background-color: skyblue;
+    width: 80%;
+}
+.photo_1{
+    width: 28rem;
+    padding: 6px;
+}
+#control{
+    width: 80%;
+    margin: 1rem auto;
+}
+.info_1 a{
+    color: white;
+}
+#bmi_table{
+    width: 800px;
+    margin: 1rem auto;
+}
+
+.info_3{
+    text-align: left;
+    padding: 3px;
+    /* 框限 顏色 粗細 虛線 */
+    border: #3d3c42 3px ;
+}
+.info_3 b{
+    background-color: rgb(171, 171, 202);
+    padding: 6px;
+    border-radius: 3px;
+    /* 每一文字列的間距 */
+    line-height: 50px;
+}
+.info_4{
+    font-size: 20px;
+    text-align: center;
+}
+
+#bmi_table th{
+    background-color: #4f5ee8;
+    color: white;
+    height: 80px;
+}
+
+tr{
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+td{
+    background-color: burlywood;
+}
+/* 針對第一欄 */
+td:first-child{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+/* 選擇欄修改 */
+td:nth-child(2){
+    background-color: brown;
+}
+/* 機偶欄改變 */
+td:nth-child(even){
+    background-color: azure;
+}
+
+/* form{   在背景放入圖片
+    background-image: url("img");
+} */
+/* 一次設定多個 */
+form,
+input,
+textarea,
+button{
+    font-size: 24px;
+}
+label{
+    margin-bottom: 2px;
+}
+
+
+form{
+    width: 80%;
+    margin: 0px auto;
+    padding: 12px 0px;
+    font-size: 16px;
+    background-color: coral;
+}
+input{
+    font-size: 16px;
+    text-align: center;
+}
+textarea{
+    margin: 24px;
+    text-align: left;
+    width: 90%;
+    font-size: 12px;
+}
+button{
+    background-color: aqua;
+    padding: 0px 8px;
+    border-radius: 3px;
+}
+

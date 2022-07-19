@@ -7,49 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            background-color: aquamarine;
-
-
-            font-family: 標楷體, Helvetica, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            
-        }
-        .title{
-            text-align: center;
-            background-color: azure;
-            color: blueviolet;
-            font-size: 32px;
-            height: 5rem;
-            line-height: 5rem;
-            border-radius: 1rem;
-            padding-left: 40%;
-            
-        }
-        .info_1{
-            background-color: rgb(23, 63, 63);
-        }
-        .photo{
-            background-color: skyblue;
-            width: 80%;
-        }
-        .photo_1{
-            width: 28rem;
-            padding: 6px;
-        }
-        #control{
-            width: 80%;
-            margin: 1rem auto;
-        }
-        .info_1 a{
-            color: white;
-        }
-        #bmi_table{
-            width: 800px;
-            margin: 1rem auto;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/style_test.css">
+    
 </head>
 <body>
     <div id="control">
@@ -141,12 +100,14 @@
 
 
     </table>
+    <!-- div.info3  ，  快捷寫法 -->
+    <div class="info_3">
     <p><b>計算BMI:</b> <br>
         一位民眾身高160公分，體重65公斤，BMI25.4kg/m2(=65÷1.6÷1.6)，體重屬於「過重」。</p>
     
     <p> <b><a href="bmi.html" target="_blank">計算所需熱量:</a> </b> <br>    
     因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。</p>
-    
+    </div>
 </body>
 <hr />
 <h2>健身影片</h2>
@@ -161,8 +122,10 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen
 ></iframe>
 <hr />
+<div class="info_4">
 <p><b>需要更多資訊?免費索取健身資訊</b> <br />    
     前100名還贈送［我愛健身］書籍一本!</p>
+</div>
 <form action="">
     <label for="">EMAIL</label>
     <input type="email" name="" id="">
